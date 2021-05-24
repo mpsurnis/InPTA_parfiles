@@ -1,0 +1,14 @@
+The par files have been prepared from version B of the IPTA DR2, which is hosted here: https://gitlab.com/IPTA/DR2/-/tree/master/release/VersionB
+
+The par file for each pulsar is based on the TCB (TEMPO2) par files in the DR2 database
+
+The directory hosts a file named sample.par which has each and every parameter annotated with its purpose and explanation as far as I could :)
+
+Each par file has three sections:
+1. Timing model parameters: The basic timing parameters like position, period period derivative DM and the respective reference epochs
+
+2. Binary model parameters: Binary type and the binary parameters for pulsars in binary systems. Absent for isolated MSPs
+
+3. Clock and other parameters: The clock correction, reference and barycentric conversion methods
+
+For more details, refer to https://arxiv.org/pdf/1205.6273.pdf

@@ -1,0 +1,40 @@
+# Timing model parameters
+PSRJ           J0437-4715 # PSR name in J2000 coordinates
+RAJ             04:37:15.9125330         1  0.00000049499743671310 # RA in hms  
+DECJ           -47:15:09.20860           1  0.00000530447464429418 # DEC in dms  
+F0             173.68794573752012822     1  8.9036015126845555988e-13 # Spin frequency in Hz
+F1             -1.7283496047264347658e-15 1  7.8839109011971830178e-21 # Spin frequency derivative in Hz/s
+PEPOCH         55000 # Reference epoch for spin frequency measurement                      
+POSEPOCH       55000 # Reference epoch for position measurement                      
+DMEPOCH        55000 # Reference epoch for DM measurement                      
+DM             2.6453040227808391769     1  0.00034562673845404263 # Dispersion measure in pc cm^-3  
+PMRA           121.44305889060939251     1  0.00143540948046585798 # Proper motion in RA in mas yr^-1  
+PMDEC          -71.474031942859755355    1  0.00156043124893429693 # Proper motion in DEC in mas yr^-1  
+PX             6.4181964720062293249     1  0.06726257493136993115 # Parallax in arcsec  
+# Binary model parameters
+# These parameters are specific to the binary model, so vary from pulsar to pulsar
+BINARY         T2 # Binary model name
+SINI            KIN # Sin of the orbital inclination angle
+PB             5.7410458118742377777     1  0.00000027372685863832 # Orbital period in days  
+T0             55316.695422844796827     1  0.00026831202146956044 # Epoch of perisatron  
+A1             3.3667200109880236559     1  0.00000004543671395236 # Semi-major axis of the orbit  
+OM             1.381634621829865502      1  0.01682486551059913377 # Longitude of periastron  
+ECC            1.9181585801664937062e-05 1  0.00000000140254705395 # Orbital eccentricity  
+PBDOT          3.7298563916059309348e-12 1  3.3605249613501511374e-15 # Time derivative of orbital period
+XDOT           0                           
+OMDOT          0.013363140875013708106   1  0.00109202151175397176 # Advance of longitude of periastron  
+M2             0.22774071924104314862    1  0.00594804962282436799    
+KOM            208.91366491443419706     1  1.07849464622883539633   
+KIN            137.51487343626504115     1  0.01695149297581488926   
+# Clock and other parameters
+EPHVER         5 # This means that the par file is TEMPO2. 2 means TEMPO1                          
+NE_SW          0 # The plasma density due to solar wind                          
+CLK            TT(BIPM2015) # Clock correction method to convert topocentric times to barycentric times
+MODE 1         # This means uncertainties are used in calculating chisq
+UNITS          TCB # Barycentric coordinate time, default for tempo2. tempo1 default in TDB 
+TIMEEPH        IF99 
+DILATEFREQ     Y 
+PLANET_SHAPIRO Y # Use Shapiro delay caused by planets in the solar system
+T2CMETHOD      IAU2000B 
+CORRECT_TROPOSPHERE  Y # Correct for tropospheric delay
+EPHEM          DE436 # Planetary ephemeris version to use
