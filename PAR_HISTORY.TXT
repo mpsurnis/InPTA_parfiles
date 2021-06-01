@@ -28,3 +28,8 @@ J2317+1439.par  - removed #DM             21.899550186317335555     1  0.0003220
 24/05/2021: Mayuresh
 
 Removed the remaining # characters from all the par files
+
+01/06/2021: Mayuresh
+
+Added missing DM and removed DM2 from J1600-3053.par
+Added H3 and STIG back to J1600-3053.par and J1022+1001.par 
