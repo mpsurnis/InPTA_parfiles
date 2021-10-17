@@ -33,3 +33,8 @@ Removed the remaining # characters from all the par files
 
 Added missing DM and removed DM2 from J1600-3053.par
 Added H3 and STIG back to J1600-3053.par and J1022+1001.par 
+
+01/06/2021: BCJ
+Added H3 and STIG back to J0751+1807.par
+Added J1744-1134.par
+to be checked by Abhimanyu and Manjari
